@@ -25,3 +25,9 @@ This project aims to build a data extraction and data processing tool for the NY
 + figure out memory saving ways to save then manipulate data (how to do everything without pd.DataFrame)
 + figure out how to make multiple same queries and return non-overlapping values
   + __potentially resolved as well, since we do not need to split large polygons anymore (2018/03/29)__
+
+#### <span style="color:orange">To do list 2018/04/01</span>
++ Pull all static 311 data, and add geospatial columns such as census tract
+  + how to categorize by census tract?
+  + what is the ideal data format? --> HDFS
++ move data to data base
